@@ -1,7 +1,7 @@
 # PCA from Scratch: CO₂ Emissions in Africa
 
 **Formative Assignment 1: Advanced Linear Algebra (Principal Component Analysis)**
-**Group / Peer Pair:** `<GROUP NUMBER>`
+**Group / Peer Pair:** `PCA PAIR TEAM 6`
 
 ## Overview
 This project implements **Principal Component Analysis (PCA) from scratch using only NumPy and Matplotlib**. We apply it to CO₂ emissions and socio-economic data for 54 African countries from 2000 to 2020. The goal is to reduce 12 correlated features to a few principal components that keep most of the variance, and to interpret what those components reveal about **economic activity, population pressure and emissions** across the continent.
@@ -30,8 +30,8 @@ This project implements **Principal Component Analysis (PCA) from scratch using 
 3. **Impute:** fill gaps with the country's own median. When a country has no values at all for a feature, use its sub-region's median for the same year.
 4. **Encode:** one-hot encode `Sub-Region` and use it to colour the plots and validate the clusters.
 5. **Transform:** apply a signed log, `sign(x)·log(1+|x|)`, to reduce heavy skew. It also handles the negative land-use values.
-6. **Standardize:** `Z = (X − μ) / σ`.
-7. **Covariance matrix:** `Zᵀ Z / (n − 1)`.
+6. **Standardize:** `Z = (X − u) / o`.
+7. **Covariance matrix:** `Z^T Z / (n − 1)`.
 8. **Eigendecomposition:** `np.linalg.eigh`, then sort the eigenvalues and eigenvectors in descending order.
 9. **Choose components dynamically:** take the smallest *k* whose cumulative explained variance reaches **90%**.
 10. **Project and visualize:** compute `Z · W_k`, then plot before vs after PCA.
