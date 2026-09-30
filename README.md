@@ -52,19 +52,10 @@ Without being given region labels, PCA separates **Northern and Southern Africa*
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone <INSERT REPO LINK HERE>
+   git clone https://github.com/Abigail-Salem-Tendo/Team_6_PCA.git
    ```
 2. Open `PCA_Formative_1_CO2_Emissions_Africa.ipynb` in Jupyter or Google Colab.
 3. Make sure `co2 Emission Africa.csv` is in the same folder. In Colab, upload it to the session.
 4. Run all cells from top to bottom.
 
 **Requirements:** Python 3, `numpy`, `matplotlib` (no other libraries).
-
-## Team Members & Contributions
-| Name | Contribution |
-|---|---|
-| `Abigail Salem Tendo` | `<tasks>` |
-| `Jonathan Ishimwe` | `<tasks>` |
-
-
-See `<Task_Sheet>.pdf` for the full contribution record.
